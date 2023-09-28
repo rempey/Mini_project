@@ -1,0 +1,77 @@
+---
+title: "Manuscript"
+output:
+  html_document: default
+  pdf_document: default
+date: "`r Sys.Date()`"
+geometry: margin=1in
+csl: "https://www.zotero.org/styles/elsevier-harvard"
+bibliography: /Users/rachel/Documents/Mini_project/04_manuscript/MScResearchProposalReferences.json
+---
+
+# Arthropod Diversity in Regrowing Urban Grasslands
+
+Rachel Empey ^1^\*, Dirk Steinke ^2^
+
+1.  Dept. of Integrative Biology, University of Guelph, Guelph, Ontario, Canada
+
+2.  Dept. of Integrative Biology, University of Guelph, Guelph, Ontario, Canada
+
+\*Corresponding Author
+
+email: [rempey\@uoguelph.ca](mailto:rempey@uoguelph.ca){.email} (FA)
+
+**Author Contributions:** The Corresponding Author conducted the field work, lab work.. etc..
+
+**Data Availability:** The data and code that support the findings of this study are openly available on Zenodo / GitHub at <https://github.com/rempey/Mini_project.git>.
+
+**Conflict of Interest statement**
+
+No conflicts of interest
+
+**Acknowledgements:** We would like to thank the undergraduate students in the Steinke lab for their support during lab processing. ETC
+
+\newpage
+
+# Abstract
+
+The impacts of climate change are especially pronounced in urban environments, where global warming temperatures are more prevalent than in forested areas. The drastic environmental changes resulting from global warming alter arthropod communities, which are highly sensitive to climate change. Disruption to the arthropod community threatens the entire urban environment food web and limits the already diminishing number of pollinator species habituating within urban environments. The clear threat that global warming poses on urban arthropod communities has motivated studies that track changes in arthropod diversity when their environment begins to regrow and regain the potential to support a healthy arthropod community. However, key factors including time since mowing ceased, and the regrown grass height and plot size have not been considered in the current, narrow focused research. We are predicting to find that as the grassland plots regrow, arthropod diversity will increase with plot size, grass height, and time since mowing ceased. Generalist and specialist arthropod populations are predicted to have varying responses to the naturalization of the grassland, with generalist arthropod populations increasing dramatically and specialist populations experiencing a slow increase in diversity throughout grassland regrowth. Our results will demonstrate how arthropod communities respond to grassland naturalization, specifically building on parameters such as plot size and plant height, which enhances existing knowledge of how arthropod communities respond to grassland naturalization. Understanding which grassland parameters are optimal to support an urban arthropod community will help city planners choose which sites have the greatest biodiversity potential and outline how human management strategies can be used to support urban arthropod communities. The goal of this research is to better understand how healthy arthropod communities form when a grassland monoculture diversifies, and provide naturalists with strategies to help support fragile urban arthropod communities.
+
+**Key-words**: arthropods, urban, grassland, restoration, traps, plots, metabarcoding.
+
+# Introduction
+
+Arthropods are highly sensitive to climate change and a decline in their population threatens ecosystem functioning, such as food chains supporting pollinators responsible for three quarters of crop plants on Earth [@høye2018]. Arthropod sensitivity to climate change has motivated studies addressing the impact of climate change on arthropods by tracking shifts in biodiversity [@goosey2019]. These shifts are especially pronounced in urban areas, where global warming temperatures are 29% greater than rural areas [@http://zotero.org/users/10312789/items/REC95MYL]. Recently, public interest in mitigating the loss of arthropod biodiversity in urban spaces has grown. As a result, there has been an increase in research exclusively focusing on the impact of mowing frequency on the abundance and richness of arthropods in urban grasslands [@http://zotero.org/users/10312789/items/B94KH69S]. However, key factors including regrown grass height, time since mowing ceased, and plot size have not been considered in the current, narrow focused research [@http://zotero.org/users/10312789/items/B94KH69S].
+
+## Methods
+
+### Study Design
+This study is conducted in an urban grassland located in Cambridge ON, at the Cambridge Southwood Secondary School. There are 3 grass plots in sizes of 9m2, 100m2, and 289m2 that will be regrown in the school yard at a distance of 18m apart from each other. The grass plots will remain stagnant without mowing for the duration of this 2-year study. Weekly samples are taken from May-October because arthropod communities are not active in the winter. Additionally, only the surrounding areas of the plots will be mowed as per usual. Malaise traps placed in the center of each plot will trap arthropods to be preserved for metabarcoding. No human management will be used to support the regrowth of the grass plots as this study focuses on the unbiased arthropod recolonization process.
+
+### Malaise Traps
+Malaise traps are widely used in the scientific community as they construct an accurate representation of the local arthropod biodiversity in an environment and are specifically effective at targeting flying arthropods (Skvarla et al., 2021; Trap Responses of Flying Insects - 1st Edition, n.d.). A malaise trap is placed in the center of 3 isolated grass plots, ranging in size from 9m2-289m2, where it collects arthropods visiting or passing through the regrown grass plots. Each malaise trap is identical and is secured to the ground using thin rope and stakes that are maintained weekly. The malaise trap is designed with mesh netting to encourage the already innate tendency of insects to climb when met with a barrier (Skvarla et al., 2021). The arthropods that climb to the top of the trap are preserved in a bottle of ethanol throughout each 1-week sampling period. Ethanol is used to preserve arthropods as it eliminates the enzymes responsible for enzymatic breakdown of DNA, while also drying out tissues to reduce damage to DNA (Marquina et al., 2021). Ethanol bottles are exchanged weekly with a new bottle filled with about 450ml of ethanol, then stored at room temperature in the Steinke lab to be processed for metabarcoding. The arthropods present in each weekly sample will construct a community composition that will be analysed throughout this study.
+
+### Metabarcoding
+Metabarcoding combines DNA barcoding and high throughput sequencing (HTS) to simultaneously identify species in bulk samples using a DNA barcoding database (Seymour, 2022). Metabarcoding is advantageous in this study as it identifies numerous species in a single sample and can help to map out arthropod community structure over time. The malaise trap samples contain a diverse community of arthropods, therefore; metabarcoding is optimal to use as it replicates the arthropod community structure while being efficient, cost-effective, and accurate (Liu et al., 2020). 
+The barcode region of DNA in animals, called the mitochondrial cytochrome c oxidase subunit I (COX I) gene, is used for species-level identification of the organisms found in the malaise trap samples (Jalali et al., 2015; Wilson, 2012). Identifying the arthropod community composition in each weekly sample will outline changes to arthropod biodiversity, generalist and specialist species abundance, or diversity based on plot size. Overall, metabarcoding of the weekly malaise trap samples will provide an accurate replication of how the arthropod community changes throughout grass plot regrowth. This information will be used to answer the hypothesis and predictions of this study.
+	The process of metabarcoding begins when the malaise trap samples are collected. Each bottle of ethanol containing arthropods will be dried for a few hours or overnight to remove any ethanol, then the arthropod biomass will be grinded into a powder. Lysis is completed next using Proteinase K, which chemically breaks down cell membranes to expose organismal DNA while maintaining the physical structure of the DNA. The next step of metabarcoding is to separate the DNA from anything unnecessary in the lysate, such as RNA and proteins, through the process of DNA extraction. Qubit is completed to check the concentration and quality of DNA using fluorescent dye, where the fluorescence intensity correlates to the amount of intact double stranded DNA (dsDNA) (Nakayama et al., 2016). Once the DNA is isolated, a polymerase chain reaction (PCR) is completed using Taq DNA polymerase to amplify the COX I gene segment of DNA and increase its concentration. Gel electrophoresis is used to check the size of DNA fragments using an electric current. Since DNA is negatively charged, the DNA fragments will be attracted to the positively charged electrode on the opposite side of the gel and the amount of movement depends on the size of the DNA strand. The next step is PCR2, which adds tags and adaptor sequences to the DNA fragments that are essential for sequencing on an HTS platform. PCR normalization is the final step in the PCR process, and it ensures the PCR product in each sample has equal concentration by removing sampling differences created by varying quality or quantity of DNA or RNA (Vandesompele et al., 2002). Finally, SPRI cleanup is used to remove any gene fragments shorter than 100 base pairs. This step improves the accuracy of the quantification process of barcoding and will reduce impacts created by confounding factors (Ling & Salvaterra, 2011). To preserve the PCR product in case of error, the products are pooled together and will remain in a freezer for future use. Once each of these steps are completed with the upmost importance on lab protocol and cleaning procedures to prevent contamination, the normalized PCR samples will be sent for barcoding and an OTU table will be generated.
+
+## Results
+No results yet
+
+## Discussion
+No discussion yet.
+
+## References
+Listed at the end.
+
+## Tables
+No data yet.
+
+## Figures
+
+![*Figure 1*: Line graph outlining a positive relationship between grassland regrowth and arthropod biodiversity.](images/Hypothesis1-02.png)
+
+![*Figure 2*: Line graph outlining the relationship between grass plot size (17x17m, 10x10m, 3x3m) in relation to grassland regrowth and arthropod biodiversity. The 17x17m plot size has the fastest growing arthropod biodiversity throughout grassland regrowth, the 10x10m plot shows correlation between grassland regrowth and arthropod biodiversity, and the 3x3m plot has the slowest growing arthropod biodiversity throughout grassland regrowth.!](images/Hypothesis2.png)
+
+## Appendix

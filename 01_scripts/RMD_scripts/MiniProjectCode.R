@@ -21,4 +21,5 @@ head(penguindata)
 head(raw_penguindata)
 
 ## Saving the raw data dataframe to the raw data directory file
-saveRDS(raw_penguindata, file = "/Users/rachel/Mini project/00_raw.data/Rawdata")
+#saveRDS(raw_penguindata, file = "/Users/rachel/Mini project/00_raw.data/Rawdata")
+write.csv(raw_penguindata, "/Users/rachel/Documents/Mini_project/00_raw.data/raw_PenguinData.csv", row.names=TRUE)

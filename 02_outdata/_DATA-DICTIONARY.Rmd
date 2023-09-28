@@ -1,0 +1,13 @@
+---
+title: "DATA_DICTIONARY.md"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## September 27, 2023. Created by Rachel Empey.
+## Last update: September 27, 2023 by Rachel Empey.
+## This is a data dictionary for the raw data file, which currently contains the raw data from the palmer penguins package, which I downloaded from r. This dataframe contains a variety of columns relating to the date, region, egg arrival date, egg size, body mass, sex, etc.

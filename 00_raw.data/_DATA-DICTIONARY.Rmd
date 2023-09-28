@@ -1,0 +1,18 @@
+---
+title: "DATA_DICTIONARY.md"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## September 27, 2023. Created by Rachel Empey.
+## Last update: September 27, 2023 by Rachel Empey.
+## This is a data dictionary for the raw data file, which currently contains the raw data from the palmer penguins package, which I downloaded from r. 
+## Variable descriptions;
+## studyName - the name of the study 
+## Sample.Number - labelling each sample from 1-etc...
+## Species - the species name
+## For the purposes of this assignment I understand to label and explain each column. 
